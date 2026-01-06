@@ -693,26 +693,24 @@ small {
   }
 }
 
-/* ===== CERTIFICATIONS CARDS - SIMPLE FIX ===== */
+/* ===== CERTIFICATIONS SECTION ===== */
 #certifications .row {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 16px;
   margin: 0 !important;
 }
 
 #certifications .col {
-  flex: 0 0 calc(25% - 12px) !important;
-  padding: 0 !important;
+  padding: 12px !important;
+}
+
+#certifications .col.s12.m6.l3 {
+  width: 25% !important;
   margin: 0 !important;
 }
 
 #certifications .card {
   margin: 0 !important;
+  margin-bottom: 0 !important;
   height: 100%;
 }
 
-#certifications .card-content {
-  padding: 18px !important;
-}
 
