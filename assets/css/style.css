@@ -834,6 +834,148 @@ small {
   border-bottom-color: transparent !important;
 }
 
+/* ===== ACHIEVEMENTS SECTION ===== */
+
+#achievements {
+  padding: 30px 0;
+  position: relative;
+}
+
+#achievements h3 {
+  margin-bottom: 40px;
+  padding: 30px 40px;
+}
+
+#achievements .container {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+}
+
+#achievements .row {
+  margin: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+#achievements .col.s12.m6.l4 {
+  padding: 0 !important;
+  margin: 0 !important;
+  flex: 0 0 calc(33.333% - 11px) !important;
+  width: calc(33.333% - 11px);
+  box-sizing: border-box;
+}
+
+#achievements .card {
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+}
+
+#achievements .card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+#achievements .card-content {
+  flex: 1;
+  padding: 20px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+#achievements .card-title {
+  font-size: 16px !important;
+  font-weight: 600;
+  margin-bottom: 10px !important;
+  line-height: 1.3;
+  color: #d32f2f !important;
+}
+
+#achievements .card-content p {
+  margin: 6px 0 !important;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+#achievements .card-content p.grey-text {
+  color: #999 !important;
+  font-weight: 500;
+  margin-bottom: 8px !important;
+}
+
+#achievements .chip {
+  display: inline-block;
+  margin: 4px 4px 4px 0 !important;
+  padding: 6px 12px !important;
+  font-size: 12px !important;
+  background-color: #ffebee !important;
+  color: #d32f2f !important;
+}
+
+#achievements .achievement-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #ffd700;
+  color: #333;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  #achievements .col.s12.m6.l4 {
+    flex: 0 0 calc(50% - 8px) !important;
+    width: calc(50% - 8px);
+  }
+}
+
+@media (max-width: 768px) {
+  #achievements {
+    padding: 20px 0;
+  }
+  
+  #achievements h3 {
+    padding: 20px 16px;
+  }
+  
+  #achievements .container {
+    width: 100% !important;
+    padding: 0 16px !important;
+  }
+  
+  #achievements .col.s12.m6.l4 {
+    flex: 0 0 100% !important;
+    width: 100%;
+  }
+  
+  #achievements .row {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  #achievements .card-title {
+    font-size: 14px !important;
+  }
+  
+  #achievements .card-content p {
+    font-size: 12px;
+  }
+}
+
 
 
 
