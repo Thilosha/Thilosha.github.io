@@ -807,7 +807,32 @@ small {
   }
   
   #certifications .row {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  #certifications .card-title {
+    font-size: 14px !important;
+  }
+  
+  #certifications .card-content p {
+    font-size: 12px;
+  }
+}
+
    
+/* Contact section link color */
+#contact a,
+#contact a.hoverline {
+  color: #607d8b !important;   /* grey similar to the icon */
+  border-bottom-color: transparent !important;
+}
+
+#contact a.hoverline:hover {
+  color: #607d8b !important;
+  border-bottom-color: transparent !important;
+}
 
 
 
